@@ -24,5 +24,13 @@ namespace github01
             int soucet = a + b;
             MessageBox.Show("Soucet: " + soucet);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+            int rozdil = a - b;
+            MessageBox.Show("Soucet: " + rozdil);
+        }
     }
 }
