@@ -40,5 +40,13 @@ namespace github01
             int soucin = a * b;
             MessageBox.Show("Soucet: " + soucin);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+            int podil = a / b;
+            MessageBox.Show("Soucet: " + podil);
+        }
     }
 }
